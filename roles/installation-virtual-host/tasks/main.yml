@@ -1,5 +1,5 @@
 ---
-- name: Set virtual host 
+- name: Set virtual host
   block:
     - name: Create folders for enginx
       file:

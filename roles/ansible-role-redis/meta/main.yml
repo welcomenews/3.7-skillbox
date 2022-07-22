@@ -3,7 +3,7 @@ dependencies: []
 
 galaxy_info:
   role_name: redis
-  author: Sergey Ignatov 
+  author: Sergey Ignatov
   description: Redis for Linux
   company: "CB Sokolovsky"
   license: "license (BSD, MIT)"

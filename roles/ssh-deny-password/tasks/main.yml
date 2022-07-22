@@ -22,7 +22,7 @@
     - '#PermitRootLogin prohibit-password'
 
 - name: Restart service.
-  service: 
+  service:
     name: ssh
     state: restarted
 
