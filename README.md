@@ -4,12 +4,13 @@
 python3 -c 'import crypt,getpass;pw=getpass.getpass();print(crypt.crypt(pw) if (pw==getpass.getpass("Confirm: ")) else exit())'
 
 ### Для создания шифрования пароля в ansible-vault запускаем
+```
 sergey@sbnk ~/TEMP/3.7-skillbox $ ansible-vault encrypt_string
 New Vault password: 
 Confirm New Vault password: 
 Reading plaintext input from stdin. (ctrl-d to end input)
 $6$hu5BDUhpHT4BBSKT$N/jFcsdoAV/jhHp2ao.a37XeKiADZj6C0K9eShLKYD3fR1SA61Gz2.di59FPWB8z/X2yRO9axz3WrHpBP/IZW1  <-- (Это сам пароль)
-
+```
 
 ### Запуск
 ansible-playbook -K -i host.inv playbook.yml --ask-vault-pass
