@@ -1,9 +1,9 @@
 ### 3.7-skillbox
 
-## Запуск
+### Запуск
 ansible-playbook -K -i host.inv site.yml --ask-vault-pass
 
-## Проверка
+### Проверка
 ansible-playbook -K -i host.inv site.yml --ask-vault-pass --list-tasks --skip-tags nginx
 
 ansible-playbook -K -i host.inv site.yml --ask-vault-pass --list-tasks --tags tagged
