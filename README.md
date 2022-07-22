@@ -1,8 +1,9 @@
 ### 3.7-skillbox
 
 ### Чтобы сгенерировать хеш пароля
+```
 python3 -c 'import crypt,getpass;pw=getpass.getpass();print(crypt.crypt(pw) if (pw==getpass.getpass("Confirm: ")) else exit())'
-
+```
 ### Для создания шифрования пароля в ansible-vault запускаем
 ```
 sergey@sbnk ~/TEMP/3.7-skillbox $ ansible-vault encrypt_string
