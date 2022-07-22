@@ -12,6 +12,7 @@ ansible-playbook -K -i host.inv site.yml --ask-vault-pass --list-tasks --skip-ta
 
 ansible-playbook -K -i host.inv site.yml --ask-vault-pass --list-tasks --tags print
 
+#############
 
 У нас есть две машины с пустой ОС, с последней версией Ubuntu. Создайте playbook верхнего уровня и Ansible- роль с необходимыми тасками, переменными и тегами для настройки сервера по разным сценариям и возможностями переиспользования.
 
