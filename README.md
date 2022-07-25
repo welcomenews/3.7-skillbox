@@ -58,3 +58,14 @@ ansible-playbook -K -i host.inv playbook.yml --ask-vault-pass --list-tasks --tag
 - второй раз на машине 2 — все таски, кроме print; 
 - третий раз на всех машинах —  только таски с тегом print.
 
+
+https://webdevblog.ru/redis-dlya-nachinajushhij/
+
+https://citizix.com/how-to-using-ansible-to-install-and-configure-redis-6-on-rocky-linux-8/
+
+https://github.com/geerlingguy/ansible-role-redis/blob/master/defaults/main.yml
+
+https://relativkreativ.at/articles/how-to-install-python-with-ansible
+
+
+
